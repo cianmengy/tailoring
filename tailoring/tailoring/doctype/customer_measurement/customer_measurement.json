@@ -9,7 +9,6 @@
   "amended_from",
   "customer",
   "column_break_phjk",
-  "garment_type",
   "uom",
   "upper_body_section",
   "shoulder",
@@ -45,11 +44,6 @@
   {
    "fieldname": "column_break_phjk",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "garment_type",
-   "fieldtype": "Select",
-   "label": "Garment Type"
   },
   {
    "fieldname": "uom",
@@ -99,7 +93,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-02-07 09:29:12.340556",
+ "modified": "2026-02-07 10:54:59.856836",
  "modified_by": "Administrator",
  "module": "Tailoring",
  "name": "Customer Measurement",

@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-02-05 18:59:05.453325",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_fupa",
+  "amended_from",
+  "customer",
+  "column_break_phjk",
+  "garment_type",
+  "uom",
+  "upper_body_section",
+  "shoulder",
+  "column_break_ssdg",
+  "sleeve",
+  "lover_body_section",
+  "waist",
+  "column_break_ythp",
+  "inseam"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_fupa",
+   "fieldtype": "Section Break",
+   "label": "Customer Measurement"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Customer Measurement",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_phjk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "garment_type",
+   "fieldtype": "Select",
+   "label": "Garment Type"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Select",
+   "label": "Unit of Measure"
+  },
+  {
+   "fieldname": "upper_body_section",
+   "fieldtype": "Section Break",
+   "label": "Upper Body"
+  },
+  {
+   "fieldname": "shoulder",
+   "fieldtype": "Float",
+   "label": "Shoulder Width"
+  },
+  {
+   "fieldname": "column_break_ssdg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sleeve",
+   "fieldtype": "Float",
+   "label": "Sleeve Length"
+  },
+  {
+   "fieldname": "lover_body_section",
+   "fieldtype": "Section Break",
+   "label": "Lower Body"
+  },
+  {
+   "fieldname": "waist",
+   "fieldtype": "Float",
+   "label": "Waist"
+  },
+  {
+   "fieldname": "column_break_ythp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inseam",
+   "fieldtype": "Float",
+   "label": "Inseam"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-02-07 09:29:12.340556",
+ "modified_by": "Administrator",
+ "module": "Tailoring",
+ "name": "Customer Measurement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "customer",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "customer"
+}

@@ -251,3 +251,5 @@ app_license = "mit"
 doctype_js = {
     "Sales Order": "public/js/sales_order.js"
 }
+fixtures = [{"doctype": "Property Setter"}]
+

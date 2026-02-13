@@ -251,5 +251,19 @@ app_license = "mit"
 doctype_js = {
     "Sales Order": "public/js/sales_order.js"
 }
-fixtures = [{"doctype": "Property Setter"}]
+
+doctype_js = {
+    "Sales Invoice": "public/js/sales_invoice.js"
+}
+
+fixtures = [
+    {
+        "doctype": "Property Setter",
+        "filters": [["doc_type", "=", "Customer"]]
+    },
+    {
+        "doctype": "Custom Field",
+        "filters": [["dt", "=", "Customer"]]
+    }
+]
 

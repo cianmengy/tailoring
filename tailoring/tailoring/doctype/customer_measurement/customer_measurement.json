@@ -10,14 +10,9 @@
   "customer",
   "column_break_phjk",
   "uom",
-  "upper_body_section",
-  "shoulder",
-  "column_break_ssdg",
-  "sleeve",
   "lover_body_section",
   "waist",
-  "column_break_ythp",
-  "inseam"
+  "column_break_ythp"
  ],
  "fields": [
   {
@@ -51,25 +46,6 @@
    "label": "Unit of Measure"
   },
   {
-   "fieldname": "upper_body_section",
-   "fieldtype": "Section Break",
-   "label": "Upper Body"
-  },
-  {
-   "fieldname": "shoulder",
-   "fieldtype": "Float",
-   "label": "Shoulder Width"
-  },
-  {
-   "fieldname": "column_break_ssdg",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "sleeve",
-   "fieldtype": "Float",
-   "label": "Sleeve Length"
-  },
-  {
    "fieldname": "lover_body_section",
    "fieldtype": "Section Break",
    "label": "Lower Body"
@@ -82,18 +58,13 @@
   {
    "fieldname": "column_break_ythp",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "inseam",
-   "fieldtype": "Float",
-   "label": "Inseam"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-02-07 10:54:59.856836",
+ "modified": "2026-02-25 17:26:19.980753",
  "modified_by": "Administrator",
  "module": "Tailoring",
  "name": "Customer Measurement",
